@@ -1,10 +1,13 @@
 # Fathom_EnviroAtlas_ACS
 
-Step1: Download AFTHOM 30 m data - i got it from BEG shared link
+## FATHOM DATA ANALYSIS
+Step1: Download and filter the Fathom data.
 
-Step2: transfer all that to scratch drive
+A. Download AFTHOM 30 m data - i got it from BEG shared link
 
-Step3: FIlter the data for 15 cm using filter.py script
+B: transfer all that to scratch drive
+
+C: FIlter the data for 15 cm using filter.py script
   
   ### use below command on terinal to create fathom_folder_list.txt
   
@@ -16,4 +19,16 @@ Step3: FIlter the data for 15 cm using filter.py script
 
   then sbatch filter_array.sh [uses CPU with array]
   
-Step4:
+Step4: Combine the filtered files to create one flooded tif [fluvial+pluvial+coastal]
+
+Step5: Plot the different frequency - diffferent flooding and combined flooding.
+
+## EnviroAtlas DATA ANALYSIS
+
+## ACS DATA ANALYSIS
+
+
+## For Austin City
+
+## For CONUS
+
